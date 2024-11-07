@@ -26,7 +26,7 @@
             Console.WriteLine($"Max rim size {car.MaxRimSize}");
             Console.WriteLine();
             Console.WriteLine(truck.DisplayInfo());
-            Console.WriteLine(truck.InspectionStatus() ? "Lastbilen sksal synes" : "Lastbilen skal ikke synes");
+            Console.WriteLine(truck.InspectionStatus() ? "Lastbilen skal synes" : "Lastbilen skal ikke synes");
             Console.WriteLine($"Max rim size {truck.MaxRimSize}");
             Console.WriteLine();
             Console.WriteLine(car.GetInterfaceInfo());
