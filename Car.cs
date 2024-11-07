@@ -21,5 +21,10 @@ namespace VehicleInspection
         {
             return $"Car: {Brand} {Model}";
         }
+
+        public override void SetTireType(bool isWinterTire)
+        {
+            MaxRimSize = isWinterTire ? 16 : 22;
+        }
     }
 }
